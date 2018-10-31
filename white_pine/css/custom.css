@@ -1,3 +1,35 @@
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 48pt;
+}
+
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Montserrat', sans-serif;
+
+
+.hexagon1 {
+  width: 100px;
+  height: 55px;
+  background: red;
+  position: relative;
+    }
+.hexagon1:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid red;
+    }
+ 
+}
+
+
 .dot {
   height: 100px;
   width: 100px;
