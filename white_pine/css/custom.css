@@ -23,36 +23,112 @@ font-family: 'Marck Script', cursive;
     font-size: 1.7em;
 }
 
+h6 {
+font-family: 'Oswald', sans-serif;
+font-size: 2.5em;
+}
+
+h7 {
+font-family: 'Oswald', sans-serif;
+font-size: 2em;
+}
+
+h8 {
+font-family: 'Oswald', sans-serif;
+font-size: 1.3em;
+}
+
+h9 {
+font-family: 'News Cycle', sans-serif;
+font-size: 1.125em  
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
 }
 
-/*
-font-family: 'Merriweather', serif;
-font-family: 'Merriweather Sans', sans-serif;
-font-family: 'Marck Script', cursive;
-font-family: 'Montserrat', sans-serif;
-*/
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color: #ca3584;
+    
+}
+
+.btn:hover { 
+    color: #99cc33;
+}
 
 
 .circle1 {
-      width: 100px;
-      height: 100px;
-      background-color: red;
-      border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #666699;
+    border-radius: 50%;
     display: inline-block;
-    margin: 0 0 40px 40px;
-    padding-top: 22px;
+    margin: 20px 20px 40px 40px;
+    padding-top: 40px;
     text-align: center;
+font-family: 'News Cycle', sans-serif;
     }
   
+.circle2 {
+    width: 150px;
+    height: 150px;
+    background-color: #663399;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 20px 40px 40px;
+    padding-top:40px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+    }
+.circle3 {
+    width: 150px;
+    height: 150px;
+    background-color: #336633;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 20px 40px 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+    }
+.circle4 {
+    width: 150px;
+    height: 150px;
+    background-color: #669966;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 20px 40px 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+    }
+.circle5 {
+    width: 150px;
+    height: 150px;
+    background-color: #cccc33;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 20px 40px 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+    }
+.circle6 {
+    width: 150px;
+    height: 150px;
+    background-color: #99cc33;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 20px 40px 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+    }
 
 
-.dot {
-  height: 100px;
-  width: 100px;
-  background-color: #666699;
-  border-radius: 50%;
-  display: inline-block;
+.top {
+    padding-top: 20px;
 }
