@@ -164,13 +164,10 @@ a:active {
     font-family: 'News Cycle', sans-serif;
     }
 
-/*
-.navbar .main {
-    background-image: url("navBar.png");
-    width:100%;
-    
+.list-group {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
 }
-*/
 
 .text-center.logo img {
    margin: 0 30px 10px 0; 
