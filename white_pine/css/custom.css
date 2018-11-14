@@ -169,6 +169,14 @@ a:active {
     font-size: 1.3em;
 }
 
+.row.space {
+    padding-top: 50px;
+}
+
+.space {
+    padding-top: 50px;
+}
+
 .text-center.logo img {
    margin: 0 30px 10px 0; 
 }
@@ -176,7 +184,7 @@ a:active {
 .top {
     padding: 20px 10px 0px 20px;
 /*    background-color:#663695;*/
-    background:url("../images/header.png");
+    background:url("../images/headerii.png");
     background-repeat: no-repeat;
     height: 223px;
     width: 930px;
