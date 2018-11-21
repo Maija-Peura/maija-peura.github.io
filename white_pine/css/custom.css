@@ -60,7 +60,7 @@ body {
 
 .btn {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     color: #99cc33;
     background:#663399;
     border-color: #663399;
@@ -213,6 +213,11 @@ a:hover {
 }
 
 /*BODY STYLES*/
+
+.col.thumbs {
+    text-align: center;
+    padding-bottom: 50px;
+}
 
 .jumbotron {
   color: white;
