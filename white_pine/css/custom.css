@@ -282,7 +282,9 @@ ul.secondary_nav li a {
     font-size: .5em;
 }
 
-
+ul.social {
+    margin-top: 20px;
+}
 
 ul.social li {
     display: inline;
