@@ -1,6 +1,8 @@
 .bg-dark {
-    background:url("../images/navBar.jpg")!important;
-    background-repeat:no-repeat !important;
+/*    background:url("../images/navBar.jpg")!important;*/
+/*    background-repeat:no-repeat !important;*/
+    width: 100%;
+    background-color: #120D0D;
 }
 
 /*
@@ -222,10 +224,12 @@ a:hover {
 
 /*BODY STYLES*/
 
+/*
 .col.thumbs {
     text-align: center;
     padding-bottom: 50px;
 }
+*/
 
 .jumbotron {
   color: white;
@@ -249,8 +253,8 @@ a:hover {
 footer {
     height: auto;
     width: 100%;
-    background-color: #669966;
-    color: #cccc33;
+    background-color: #343a40!important;
+    color: #F7E8DA;
     }
 
 footer p {
@@ -258,16 +262,39 @@ footer p {
     font-size: .5em;
 }
 
+.secondary_nav {
+    display: block;
+    text-align: center;
+    padding: 10px;
+/*    list-style-type: none;*/
+    
+}
+
+ul.secondary_nav li {
+    display: inline;
+    float: left;
+    padding: 5px;
+/*    border-left: 1px solid #fff;*/
+}
+
+ul.secondary_nav li a {
+    color: #F7E8DA;
+    font-size: .5em;
+}
+
+
+
 ul.social li {
     display: inline;
-    padding: 4%;
-    float: right;
+/*    padding-top: 10px;*/
+    float: none;
 }
 
 
 ul.social li a {
-    color: #cccc33;
+    color: #F7E8DA;
     text-decoration: none;
+    padding: 10px;
 }
 
 ul.social li a:hover {

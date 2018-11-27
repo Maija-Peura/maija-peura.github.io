@@ -14,15 +14,15 @@
     <link rel="stylesheet" href="css/custom.css">
 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-<link rel="icon" type="image/png" href="images/favicon.jpg">
+<link rel="icon" type="image/png" href="images/favicon.png">
 
     <title>White Pine National Park</title>
   </head>
     
     
 <body>
-    
-<div class="container"><!--BEGIN container-->
+ <!--BEGIN container-->   
+<div class="container">
     
 <nav class="navbar navbar-expand-md navbar-light flex-row">
     <a class="navbar-brand mr-auto" href="<?php echo home_url(); ?>">
@@ -46,12 +46,9 @@
     </li>
 </ul>
 </div>
-
-    
-    
     
 </nav><!--/end logo nav -->
-
+    </div>
 <!--/start second nav -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -101,56 +98,98 @@
         </ul>
     </div>
 </nav>
-
+<!--/end second nav -->
+    
+ <!--/START BODY -->   
 <div class="welcome">
-<h1 class="display-4">WHITE PINE NATIONAL PARK</h1>
+<!--<h1 class="display-4">WHITE PINE NATIONAL PARK</h1>-->
 </div>
     
 <!--BEGIN JUMBOTRON-->   
  <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">White Pine National Park</h1>
     <p>AN EXPERIENCE AWAITS</p>
   </div>
 </div>
 
 <!--END JUMBOTRON--> 
-
+<div class="container">
 <div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Quis auctor elit sed vulputate mi sit amet. Ut enim blandit volutpat maecenas. Elit ut aliquam purus sit. Sit amet purus gravida quis. Urna nunc id cursus metus aliquam eleifend mi in. Faucibus vitae aliquet nec ullamcorper sit amet. Magnis dis parturient montes nascetur ridiculus mus mauris vitae. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Ipsum suspendisse ultrices gravida dictum. Laoreet id donec ultrices tincidunt. Interdum posuere lorem ipsum dolor sit amet consectetur. Egestas dui id ornare arcu odio ut. Iaculis eu non diam phasellus vestibulum lorem sed. Aenean et tortor at risus viverra.</p>
 </div>
-
+</div>
 
 <div class="container">
-  <div class="row">
-    <div class="col thumbs">
-        <img src="images/hiking.jpg" alt="hiking" class="img-thumbnail text-align center">
-        Upcoming Events
+    <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="">
+        <img src="images/hiking.jpg" alt="Lights" style="width:100%">
+        <div class="caption text-center">
+          <p>Upcoming Events</p>
+        </div>
+      </a>
     </div>
-    <div class="col thumbs">
-      <img src="images/rocks.png" alt="hiking" class="img-thumbnail text-align center">
-        Flora & Fauna
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="">
+        <img src="images/purple.jpg" alt="Nature" style="width:100%">
+        <div class="caption text-center">
+          <p>Flora & Fauna</p>
         </div>
-<!--    <div class="w-100"></div>-->
-    <div class="col thumbs">
-      <img src="images/portage2.jpg" alt="hiking" class="img-thumbnail text-align center">
-        Camping
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="">
+        <img src="images/portage2.jpg" alt="Fjords" style="width:100%">
+        <div class="caption text-center">
+          <p>Camping</p>
         </div>
-    <div class="col thumbs">
-      <img src="images/hiking.jpg" alt="hiking" class="img-thumbnail text-align center">
-        Membership
-        </div>
+      </a>
+    </div>
   </div>
 </div>
+    
+    
+    
+    <div class="row">
+    <div class="col-sm-3 col thumbs">
+      <img src="images/hiking.jpg" alt="hiking" class="img-thumbnail text-align center">
+        <div class="caption">
+            <p>Upcoming Events</p>
+        </div>
+    </div>
+    
+    <div class="col-sm-3 col thumbs">
+      <img src="images/purple.jpg" alt="hiking" class="img-thumbnail text-align center">
+        <p>Flora and Fauna</p>
+    </div>
+      
+      <div class="col-sm-3 col thumbs">
+      <img src="images/portage2.jpg" alt="hiking" class="img-thumbnail text-align center">
+        <p>Camping</p>
+    </div>
+      
+      <div class="col-sm-3 col thumbs">
+      <img src="images/rocks.png" alt="hiking" class="img-thumbnail text-align center">
+        <p>Membership</p>
+    </div>
+  </div>
+</div>
+ <!--/END BODY -->   
+
+    
 <!--FOOTER BEGIN-->
     
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <p>&copy; 2017 Maija Peura.  All Rights Reserved.</p>
-            </div>
-            <div class="col">
+                    
+            <div class="col-sm-4 text-center">
                 <ul class="social">
                     <li><a href="#"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a></li>
                     <li><a href="#" title=""><span class="fa fa-twitter fa-2x" aria-hidden="true"></span></a></li>
@@ -158,11 +197,25 @@
                     <li><a href="#"><span class="fa fa-pinterest fa-2x" aria-hidden="true"></span></a></li>
                 </ul>   
             </div>
+
+            <div class="col-sm-4">
+            <ul class="secondary_nav">
+                <li><a href="#">| Park Information |</a></li>
+                <li><a href="#">| Events Calendar |</a></li>
+                <li><a href="#">| Camping |</a></li>
+                <li><a href="#">| Maps |</a></li>
+            </ul>   
+        </div>
+        
+        <div class="col-sm-4 text-center">
+                <p>&copy; 2017 Maija Peura.  All Rights Reserved.<br> MCTC WEBI 2023</p>    
+        </div>
         </div>
     </div>
 </footer><!--FOOTER END-->
 
-  </div><!--end container-->
+<!--  </div>-->
+    <!--end container-->
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
