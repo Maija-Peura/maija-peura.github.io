@@ -68,9 +68,9 @@ body {
 .btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    color: #99cc33;
-    background:#663399;
-    border-color: #663399;
+    color: #959aa9;
+    background:#4c4e55;
+    border-color: #4c4e55;
     
 }
 
@@ -78,15 +78,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     color: #ca3584;
-    background:#663399;
-    border-color: #663399;
+    background:#4c4e55;
+    border-color: #4c4e55;
     
 }
 
 .btn:hover { 
     color: #ca3584;
-    background: #959aa9;
-    border-color: #959aa9;
+    background: #4c4e55;
+    border-color: #4c4e55;
 }
 
 a:link {
@@ -209,15 +209,17 @@ a:hover {
    margin: 0 30px 10px 0; 
 }
 
+/*
 .top {
     padding: 20px 10px 0px 20px;
-/*    background-color:#663695;*/
+    background-color:#663695;
     background:url("../images/headerii.png");
     background-repeat: no-repeat;
     height: 223px;
     width: 930px;
     color:#FFFFFF;
 }
+*/
 
 /*BODY STYLES*/
 
@@ -263,8 +265,6 @@ footer p {
     display: block;
     text-align: center;
     padding: 10px;
-/*    list-style-type: none;*/
-    
 }
 
 ul.secondary_nav li {
@@ -285,8 +285,6 @@ ul.social {
 
 ul.social li {
     display: inline;
-/*    padding-top: 10px;*/
-/*    float: none;*/
 }
 
 
@@ -335,9 +333,8 @@ ul.social li a:hover {
      margin-top: 0; 
     }
     
-/*
-    ul.social.text-center {
-     text-align:inherit; 
-}
-*/
+    ul.social li a {
+        padding: 10px;
+        text-align:center;
+    }
 }
