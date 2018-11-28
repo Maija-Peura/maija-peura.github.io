@@ -2,15 +2,12 @@
 /*    background:url("../images/navBar.jpg")!important;*/
 /*    background-repeat:no-repeat !important;*/
     width: 100%;
-    background-color: #120D0D;
+    background-color: #4c4e55!important;
 }
 
-/*
-.navbar {
-    background:url("../images/northern_lights_1200.jpg")!important;
-    background-repeat:no-repeat;
+.navbar-brand img {
+    width: 80%;
 }
-*/
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link {
     color: #fff;
@@ -88,8 +85,8 @@ body {
 
 .btn:hover { 
     color: #ca3584;
-    background: #663399;
-    border-color: #663399;
+    background: #959aa9;
+    border-color: #959aa9;
 }
 
 a:link {
@@ -253,8 +250,8 @@ a:hover {
 footer {
     height: auto;
     width: 100%;
-    background-color: #343a40!important;
-    color: #F7E8DA;
+    background-color: #4c4e55!important;
+    color: #bda080;
     }
 
 footer p {
@@ -278,7 +275,7 @@ ul.secondary_nav li {
 }
 
 ul.secondary_nav li a {
-    color: #F7E8DA;
+    color: #959aa9;
     font-size: .65em;
 }
 
@@ -289,12 +286,12 @@ ul.social {
 ul.social li {
     display: inline;
 /*    padding-top: 10px;*/
-    float: none;
+/*    float: none;*/
 }
 
 
 ul.social li a {
-    color: #F7E8DA;
+    color: #959aa9;
     text-decoration: none;
     padding: 20px;
 }
@@ -303,9 +300,44 @@ ul.social li a:hover {
     opacity: 0.8;
 }
 
+/*Media Queries*/
+
+
+
+
+/*// small devices (tablets, 768px and down)*/
+@media (max-width: 768px) { 
+    .navbar-brand img {
+        width: 50%;  
+    }
+/*   put other rules here for other parts of the site */
+    
+    .navbar-toggler {
+        height: 40px;
+    }
+    .navbar {
+        align-items:flex-start;
+    }
+    nav form.form-inline, 
+    nav .alert {
+        display: none;
+    }
+    
+    .welcome {
+    padding-top: 0;
+}
+    
+    ul.secondary_nav li {
+        float: none;
+    }
+    
+    ul.social {
+     margin-top: 0; 
+    }
+    
 /*
-footer p.copyright {
-    float: right;
+    ul.social.text-center {
+     text-align:inherit; 
 }
 */
-/*END FOOTER STYLES*/
+}
