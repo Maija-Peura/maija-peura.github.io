@@ -273,13 +273,13 @@ footer p {
 ul.secondary_nav li {
     display: inline;
     float: left;
-    padding: 3px;
+    padding: 5px;
 /*    border-left: 1px solid #fff;*/
 }
 
 ul.secondary_nav li a {
     color: #F7E8DA;
-    font-size: .75em;
+    font-size: .65em;
 }
 
 ul.social {
@@ -296,7 +296,7 @@ ul.social li {
 ul.social li a {
     color: #F7E8DA;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
 }
 
 ul.social li a:hover {
