@@ -247,6 +247,14 @@ a:hover {
 /*  height: 100vh;*/
 }
 
+.jumbotron.camp {
+  color: white;
+  background-image: url("../images/marshmallow.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  height: 100vh;*/
+}
 .welcome {
     text-align: center;
     padding-top: 50px;
