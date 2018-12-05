@@ -272,6 +272,15 @@ a.disabled {
     padding-left: 20px;
 }
 
+.jumbotron.construction {
+  color: white;
+  background-image: url("../images/rocks2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* 
+
 .welcome {
     text-align: center;
     padding-top: 50px;
