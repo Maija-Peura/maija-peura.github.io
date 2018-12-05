@@ -21,8 +21,8 @@
     
     
 <body>
- <!--BEGIN container-->   
-<div class="container">
+    
+<div class="container"><!--BEGIN NAV container-->
     
 <nav class="navbar navbar-expand-md navbar-light flex-row">
     <a class="navbar-brand mr-auto" href="<?php echo home_url(); ?>">
@@ -48,7 +48,7 @@
 </div>
     
 </nav><!--/end logo nav -->
-    </div>
+</div><!--END NAV container-->
 <!--/start second nav -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -61,7 +61,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Park Information</a>
                 <a class="dropdown-item" href="#">Events Calendar</a>
-                <a class="dropdown-item" href="#">Camping</a>
+                <a class="dropdown-item" href="camping.html">Camping</a>
                 <a class="dropdown-item" href="#">Maps</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Safety Information</a>
@@ -100,10 +100,7 @@
 </nav>
 <!--/end second nav -->
     
- <!--/START BODY -->   
-<div class="welcome">
-<!--<h1 class="display-4">WHITE PINE NATIONAL PARK</h1>-->
-</div>
+ <!--/START BODY --> 
     
 <!--BEGIN JUMBOTRON-->   
  <div class="jumbotron jumbotron-fluid">
@@ -115,64 +112,78 @@
 
 <!--END JUMBOTRON--> 
 <div class="container">
-<div>
-<p>On the northeast tip of Minnesota overlooking Lake Superior, White Pine National Park is an adventure waiting to happen. Although parts of Minnesota are becoming increasingly urban, there is still a quiet, pristine portion of the state waiting to be discovered.</p>
+    <div>
+        <p>On the northeast tip of Minnesota overlooking Lake Superior, White Pine National Park is an adventure waiting to happen. Although parts of Minnesota are becoming increasingly urban, there is still a quiet, pristine portion of the state waiting to be discovered.</p>
 
-<p>Nestled near one of Minnesota's five largest cities, Duluth, White Pine National Park offers the quintissential northern Minnesota experience.  You will find yourself charmed by the unique natural settings and the friendly hospitality that is far beyond "Minnesota Nice." </p>
-</div>
+        <p>Nestled near one of Minnesota's five largest cities, Duluth, White Pine National Park offers the quintissential northern Minnesota experience.  You will find yourself charmed by the unique natural settings and the friendly hospitality that is far beyond "Minnesota Nice." </p>
+    </div>
 </div>
 
 <div class="container">
     <div class="row">
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="">
-        <img src="images/event.jpg" alt="Lights" style="width:100%">
-        <div class="caption text-center">
-          <p>Upcoming Events</p>
+      
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="">
+                    <img src="images/event.jpg" alt="Lights" style="width:100%">
+                </a>
+                    <div class="caption text-center">
+                        <h4>Membership</h4>
+                    </div>
+                        <div>
+                            <h10>Pack you bags (sleeping bags, that is), load your tent into the car and get ready to listen to the breeze through the trees instead of the freeway traffic!</h10>
+                        </div>
+            </div>
         </div>
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="">
-        <img src="images/purple.jpg" alt="Nature" style="width:100%">
-        <div class="caption text-center">
-          <p>Flora & Fauna</p>
+    
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="">
+                    <img src="images/purple.jpg" alt="Nature" style="width:100%">
+                </a>
+                    <div class="caption text-center">
+                        <h4>Flora & Fauna</h4>
+                    </div>
+                        <div>
+                            <h10>The wooded lake region of the north will delight you with its rare selection of plan and animal species.</h10>
+                        </div>
+            </div>
         </div>
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="">
-        <img src="images/camping.jpg" alt="Fjords" style="width:100%">
-        <div class="caption text-center">
-          <p>Camping</p>
+            
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="">
+                    <img src="images/camping.jpg" alt="Fjords" style="width:100%">
+                </a>
+                    <div class="caption text-center">
+                        <h4>Camping</h4>
+                    </div>
+                        <div>
+                            <h10>Pack you bags (sleeping bags, that is), load your tent into the car and get ready to listen to the breeze through the trees instead of the freeway traffic!</h10>
+                        </div>
+            </div>
         </div>
-      </a>
+        
     </div>
-  </div>
 </div>
 
 <div class= "container">
-    <div class= "row">
+    <div class= "row callout">
         <div class= "col-sm-6 text-center">
             <h3>TEXT</h3>
                 
         </div>
     
         <div class= "col-sm-6 text-center">
-            <h3>TEXT</h3>
+            <h3>UPCOMING EVENTS</h3>
                 <img class="img-responsive" src="images/calendar.jpg" alt="">
         </div>
     </div>
 </div>
     
-<div class="container blog"> 
+<div class="container"> 
     <h2>Recent Blogs</h2>
-        <div class="row">   
+        <div class="row blog">   
             <div class="col-sm-3 col thumbs">
                 <div class="hovereffect">
                     <img class="img-responsive" src="images/rocks.png" alt="">
@@ -214,10 +225,6 @@
             </div>
         </div>
 </div>
-    
-
-    
-</div><!--/END BODY -->
     
 
     

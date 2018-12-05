@@ -59,6 +59,11 @@ font-family: 'News Cycle', sans-serif;
 font-size: 1.125em  
 }
 
+h10{
+  font-family: 'Merriweather', serif;
+    font-size: .75em;  
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
@@ -224,19 +229,16 @@ a:hover {
 /*BODY STYLES*/
 
 */
-.blog {
-    background-color: #666699 !important;
-    padding: 50px;
-    margin-bottom: 50px;
-    color:beige;
-}
+.container {
+    margin-bottom: 100px!important;
+    }
 
-/*
-.blog .img-thumbnail {
-     background-color: transparent;
+.callout {
+     background-color: #c4c4d8;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
-*/
 
 .jumbotron {
   color: white;
@@ -255,6 +257,15 @@ a:hover {
   background-size: cover;
 /*  height: 100vh;*/
 }
+
+.jumbotron.camp h1.display-4 {
+    padding-left: 10px;
+}
+
+.jumbotron.camp p{
+    padding-left: 20px;
+}
+
 .welcome {
     text-align: center;
     padding-top: 50px;
