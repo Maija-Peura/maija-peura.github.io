@@ -402,7 +402,9 @@ transition-delay:.2s;
     font-size: .75em;
 }
 
-li.borderless { border-top: 0 none; }
+.list-group-item {
+    border: none;s
+}
 
 /*END BODY STYLES*/
 
