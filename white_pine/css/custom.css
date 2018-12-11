@@ -79,6 +79,10 @@ body {
     
 }
 
+.ctc {
+    padding-top:10px;
+}
+
 .btn-primary:not(:disabled):not(.disabled).active {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
@@ -235,6 +239,8 @@ a.disabled {
 
 /*BODY STYLES*/
 
+
+
 .camping h3{
     margin: 1em auto 1em auto;
 }
@@ -251,56 +257,6 @@ a.disabled {
     background-color: #c4c4d8;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.jumbotron {
-  color: white;
-  background-image: url("../images/mn_splitrock.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-/*  height: 100vh;*/
-}
-
-.jumbotron.camp {
-  color: white;
-  background-image: url("../images/marshmallow.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-/*  height: 100vh;*/
-}
-
-.jumbotron.conimg {
-  color: white;
-  background-image: url("../images/northern_lights_1200.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-/*  height: 100vh;*/
-}
-.jumbotron.camp, .conimg, .constimg, h1.display-4 {
-    padding-left: 10px;
-}
-
-/*
-.jumbotron.camp, .conimg, .constimg, h4{
-    padding-left: 20px;
-}
-*/
-
-.jumbotron.constimg {
-  color: white;
-  background-image: url("../images/underCons.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* 
-
-.welcome {
-    text-align: center;
-    padding-top: 50px;
 }
 
 /*blog image hover effect start*/
@@ -392,6 +348,50 @@ transform:translatey(0);
 transition-delay:.2s;
 }/*blog image hover effect end*/
 
+.jumbotron {
+  color: white;
+  background-image: url("../images/mn_splitrock.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  height: 100vh;*/
+}
+
+.jumbotron.camp {
+  color: white;
+  background-image: url("../images/marshmallow.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  height: 100vh;*/
+}
+
+.jumbotron.conimg {
+  color: white;
+  background-image: url("../images/northern_lights_1200.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  height: 100vh;*/
+}
+.jumbotron.camp, .conimg, .constimg, h1.display-4 {
+    padding-left: 10px;
+}
+
+/*
+.jumbotron.camp, .conimg, .constimg, h4{
+    padding-left: 20px;
+}
+*/
+
+.jumbotron.constimg {
+  color: white;
+  background-image: url("../images/underCons.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .list-group-item-secondary {
     background-color: #f8f7d4;
     font-size: .75em;
@@ -404,6 +404,11 @@ transition-delay:.2s;
 
 .list-group-item {
     border: none;s
+}
+
+.more {
+    text-align: center;
+    padding-top: 20px;
 }
 
 /*END BODY STYLES*/
