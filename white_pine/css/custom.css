@@ -263,17 +263,25 @@ a.disabled {
 /*  height: 100vh;*/
 }
 
-.jumbotron.camp h1.display-4 {
+.jumbotron.conimg {
+  color: white;
+  background-image: url("../images/northern_lights_1200.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  height: 100vh;*/
+}
+.jumbotron.camp, .conimg, .constimg, h1.display-4 {
     padding-left: 10px;
 }
 
-.jumbotron.camp p{
+.jumbotron.camp, .conimg, .constimg, p{
     padding-left: 20px;
 }
 
-.jumbotron.construction {
+.jumbotron.constimg {
   color: white;
-  background-image: url("../images/rocks2.jpg");
+  background-image: url("../images/underCons.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
