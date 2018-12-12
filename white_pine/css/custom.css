@@ -525,12 +525,12 @@ ul.social li a:hover {
   .camping h3, h4 {
     margin: auto;
     text-align: center;
-}
+    }
     
     
 .camping td {
     padding: none;
-}
+    }
     
     
     .copyright p {
@@ -538,22 +538,31 @@ ul.social li a:hover {
     padding-top: 0px; 
     text-align: center;
     margin-top:auto;
-}
+    }
     
     footer p {
     margin-top: auto; 
     font-size: .75em;
     text-align: center;
-}
+    }
     
     footer img {
         display: none;
     }
     
+    .form-row>[class*=col-] {
+        text-align: center;
+        padding: none;
+        margin: auto;
+    }
+    
     .navbar-brand img {
         width: 50%;  
     }
-/*   put other rules here for other parts of the site */
+
+    .icons {
+        display: none;
+    }
     
     .navbar-toggler {
         height: 40px;
@@ -568,7 +577,7 @@ ul.social li a:hover {
     
     .welcome {
     padding-top: 0;
-}
+    }
     ul.secondary_nav {
         padding-left: 0;
     }
