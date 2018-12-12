@@ -350,6 +350,12 @@ transform:translatey(0);
 transition-delay:.2s;
 }/*blog image hover effect end*/
 
+hr {
+    width: 100%;
+    border-width: 4px;
+    border-color: #663399;
+}
+
 .jumbotron {
   color: white;
   background-image: url("../images/mn_splitrock.jpg");
