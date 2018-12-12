@@ -239,7 +239,9 @@ a.disabled {
 
 /*BODY STYLES*/
 
-
+.bg-primary {
+    background-color: #663399!important;
+}
 
 .camping h3{
     margin: 1em auto 1em auto;
@@ -360,6 +362,15 @@ transition-delay:.2s;
 .jumbotron.camp {
   color: white;
   background-image: url("../images/marshmallow.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  height: 100vh;*/
+}
+
+.jumbotron.flora {
+  color: white;
+  background-image: url("../images/pinecone.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
