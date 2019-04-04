@@ -53,5 +53,14 @@ body {
 
 
 
+/*// small devices (tablets, 768px and down)*/
+@media (max-width: 768px) {
+
+    .blog {
+        margin-bottom: auto;
+    }
+
+
+
 
 
