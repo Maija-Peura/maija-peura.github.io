@@ -1,0 +1,57 @@
+
+h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+h2 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+h3 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+body {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #000000;
+
+    background-image: url("../images/concrete-texture.png");
+}
+
+.splash {
+    padding-top: 100px;
+}
+.splash_title {
+    padding-top: 100px;
+}
+
+
+
+
+
+

@@ -1,0 +1,235 @@
+
+body {
+    background-color: #534B50;
+    font-family: 'Acme', serif;
+    color: #FAF4F4;
+}
+
+p {
+/*font-size: 1.2em;*/
+font-family: Quattrocento, sans-serif;
+}
+
+.navbar {
+    background-color: #534B50 !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #FAF4F4;
+    font-size: 1.2em;
+    padding: 30px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color: #EF7C7C;
+}
+
+
+/*INDEX PAGE*/
+#myhero {
+    padding-top: 2em;
+}
+
+#main > p {
+    font-family: Quattrocento, sans-serif;
+    padding: 0 6em 0 6em;
+}
+
+#main h1 {
+    padding: 0 4em 0 4em;
+}
+
+#main {
+    padding-top: 2em;
+}
+
+#tours {
+    padding: 1.5em;
+    background-image: url("../images/lak_sup3.jpg");
+    background-repeat: no-repeat;
+    /*background-size: 940px 468px;*/
+    background-position: center;
+    margin-bottom:1.5em;
+    /*opacity: 0.5;*/
+    color: black;
+
+}
+
+
+#tourimg img {
+    display: block;
+    margin: auto;
+    align: middle;
+}
+
+#tourimg img:hover {
+    opacity: 0.5;
+}
+
+body > div.jumbotron > div.row > div.col-md-4.offset-md-2.text-center > img {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#tourtxt h4 {
+    text-align: center;
+}
+
+/*END INDEX PAGE*/
+
+/*ITEMS PAGE*/
+
+.jumbotron {
+    background-color: #72686e;
+    margin: 0.625em 3.5em;
+}
+
+.jumbotron h2 {
+    margin-left: -1em;
+}
+
+body > div.jumbotron > div > div.col-md-4.offset-md-6 {
+   margin: 0;
+}
+
+.btn-primary{
+    background-color: #EF7C7C;
+    border: none;
+    font-family: 'Acme', serif;
+}
+.btn-primary:hover {
+    background-color: #AC1E23;
+}
+
+#subtext p {
+    font-family: Quattrocento, sans-serif;
+}
+
+body > a > img {
+    text-align: center;
+}
+
+.feature h3 {
+    color: #EF7C7C;
+    margin-bottom:1em;
+}
+
+.brews {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.imagestxt {
+    padding-top: 1.5em;
+}
+
+.col-sm > a > img:hover {
+    opacity: 0.5;
+}
+
+/*SINGLE ITEM PAGE*/
+
+.center-block > a > .img-responsive {margin: 0 auto;}
+
+/*SINGLE ITEM PAGE*/
+
+@media (min-width: 20em) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1.266em;
+    }
+
+    h4 {
+        font-size: 1.125em;
+    }
+
+    h5 {
+        font-size: 0.889em;
+    }
+
+    h6 {
+        font-size: 0.79em;
+    }
+}
+
+@media (min-width: 36em) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.563em;
+    }
+
+    h4 {
+        font-size: 1.25em;
+    }
+}
+
+    @media (min-width: 62em) {
+        body {
+            font-size: 1.2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.563em;
+        }
+
+        h4 {
+            font-size: 1.25em;
+        }
+    }
+
+/*FOOTER*/
+
+footer {
+    margin-top:3em;
+    font-family: Quattrocento, serif;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+#social {
+    float: right;
+}
+
+/*ul#social > li > a > .img-responsive:hover {*/
+    /*opacity: 0.5;*/
+/*}*/
+/*ul#social img.image-responsive:hover {*/
+    /*opacity: 0.5;*/
+/*}*/
+
+.bottomborder {
+    width: auto;
+    height: 2px;
+    background-color: #BCB8B8;
+}
