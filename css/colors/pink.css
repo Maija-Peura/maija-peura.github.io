@@ -1,11 +1,39 @@
-#preloader, .sticky, .home, a.home-button, .services .single-service, a.about-btn, .progress-bar, .progress-bar span, .portfolio_filter ul li.mixitup-control-active:before, .grid-caption a i, #our-team .content ul li a, .counterup-area, .call-to-action-area, .contact-form button, footer, .social ul li a:hover, #our-team .content ul li a{
+/*#preloader, .sticky, .home, a.home-button, .services .single-service, a.about-btn, .progress-bar, .progress-bar span, .portfolio_filter ul li.mixitup-control-active:before, .grid-caption a i, #our-team .content ul li a, .call-to-action-area, .contact-form button, footer, .social ul li a:hover, #our-team .content ul li a{*/
+	/*background-color: #00cccc;*/
+/*}*/
+/*a.home-button, a.home-button:hover, a.about-btn, a.about-btn:hover{*/
+	/*border-color:#00cccc;*/
+/*}*/
+/*.progress-bar span:before{*/
+	/*border-top-color:#cc5500;*/
+/*}*/
+/*.contact-details h3, .contact-form input[type=text], .contact-form input[type=email], .contact-form textarea{*/
+	/*border-bottom-color:#cc5500;*/
+/*}*/
+/*#our-team .content ul li a{*/
+	/*border-color:#cc5500;*/
+/*}*/
+/*a.home-button:hover, .single-service:hover i, .single-service:hover h3, .single-service:hover p, a.about-btn:hover, .portfolio_filter ul li.mixitup-control-active, #our-team .content ul li a:hover, .card .blog-info, a.call-btn:hover, .contact-details ul li i, .social ul li a, #our-team .content ul li a:hover{*/
+	/*color:#cc5500;*/
+/*}*/
+/*.counterup-area:before{*/
+	/*background-image: linear-gradient(to left, #555555, #555555);opacity: .6;*/
+/*}*/
+
+/*@media screen and (max-width: 767px) {*/
+/*nav {*/
+	/*background: #cc5500;*/
+/*}*/
+/*}*/
+
+#preloader, .sticky, .home, a.home-button, .services .single-service, a.about-btn, .progress-bar, .progress-bar span, .portfolio_filter ul li.mixitup-control-active:before, .grid-caption a i, #our-team .content ul li a, .call-to-action-area, .contact-form button, footer, .social ul li a:hover, #our-team .content ul li a{
 	background-color: #00cccc;
 }
 a.home-button, a.home-button:hover, a.about-btn, a.about-btn:hover{
 	border-color:#00cccc;
 }
 .progress-bar span:before{
-	border-top-color:#E91E63;
+	border-top-color:#cc5500;
 }
 .contact-details h3, .contact-form input[type=text], .contact-form input[type=email], .contact-form textarea{
 	border-bottom-color:#cc5500;
@@ -21,7 +49,7 @@ a.home-button:hover, .single-service:hover i, .single-service:hover h3, .single-
 }
 
 @media screen and (max-width: 767px) {
-nav {
-	background: #E91E63;
-}
+	nav {
+		background: #cc5500;
+	}
 }

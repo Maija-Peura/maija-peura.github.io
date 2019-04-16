@@ -1,11 +1,4 @@
-/*
-* Sukhi | One Page Bootstrap Template
-* Build Date: July 2016
-* Last updated: July 2017
-* Version: 1.0.0
-* Author: ThemeAim
-* Copyright (C) 2017 ThemeAim
-*/
+
 /* ------------------------------------- */
 /* TABLE OF CONTENTS
 /* -------------------------------------
@@ -74,6 +67,7 @@ section .section-title {
 }
 section .section-title p {
     padding: 0px 30%;
+    color: #FFFFFF;
 }
 section .section-title > h3::before {
     background: #555555 none repeat scroll 0 0;
@@ -91,6 +85,7 @@ section .section-title > h3 {
     text-transform: uppercase;
     padding-bottom: 10px;
     position: relative;
+    color: #FFFFFF;
 }
 #our-services,
 #our-team,
@@ -208,7 +203,7 @@ nav {
 nav ul li {
     float: left;
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     position: relative;
 }
@@ -383,7 +378,7 @@ a.home-button:hover {
 -------------------------------------------------------- */
 .services {
     padding: 60px 30px;
-    background-color: #FAE7B5;
+    background-color: #cc5500;
 }
 .services .single-service {
     background-color: #123F63;
@@ -515,8 +510,9 @@ a.about-btn:hover {
 8. PORTFOLIO SECTION
 -------------------------------------------------------- */
 #our-portfolio {
-    background-color: #FAE7B5;
+    background-color: #cc5500;
 }
+
 .portfolio .section-title {
     margin-bottom: 20;
 }
@@ -544,7 +540,7 @@ a.about-btn:hover {
 }
 .portfolio_filter ul li {
     font-size: 16px;
-    color: #777;
+    color: #ffffff;
     float: left;
     margin-right: 15px;
     list-style: none;
@@ -873,7 +869,7 @@ img.mfp-img {
     z-index: 1;
     position: relative;
     background: url("../images/background_border.png") no-repeat scroll center center / cover;
-    background-color: #123F63;
+    /*background-color: #123F63;*/
     color: #fff;
     padding: 100px 0px;
     background-attachment: fixed;
