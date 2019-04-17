@@ -874,6 +874,11 @@ img.mfp-img {
     padding: 100px 0px;
     background-attachment: fixed;
 }
+
+.counterup-area .text-center h3, h4 {
+    color: white;
+}
+
 .counterup-area:before {
     position: absolute;
     right: 0;
@@ -895,7 +900,6 @@ img.mfp-img {
 }
 .counterup-area .single-counter p {
     margin: 10px 0 10px;
-    text-transform: capitalize;
     font-weight: 300;
     color: #fff;
 }
