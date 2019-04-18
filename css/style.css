@@ -359,17 +359,17 @@ nav ul li a:focus {
 }
 a.home-button {
     margin-top: 20px;
-    border: 1px solid #123F63;
+    border: 1px solid #00cccc;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #123F63;
+    background-color: #cc5500;
     text-decoration: none;
     color: #ffffff;
     text-transform: capitalize;
     border: 1px solid #ffffff;
 }
 a.home-button:hover {
-    border: 1px solid #123F63;
+    border: 1px solid #00cccc;
     background-color: #FFF;
     color: #123F63;
 }
@@ -1056,7 +1056,7 @@ a.call-btn:hover {
 }
 .contact-form button {
     padding: 13px 20px;
-    background-color: #123F63;
+    background-color: #00cccc;
     color: #fff;
     border: 0;
     border-radius: 2px;
@@ -1107,6 +1107,24 @@ a.call-btn:hover {
     position: relative;
     top: 5px
 }
+
+/*  ----------------------------------------------------
+15. JUMBOTRON SECTION
+-------------------------------------------------------- */
+.btn-primary {
+    background-color: #cc5500;
+    border-color: #00cccc;
+}
+
+.btn-primary a {
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #00cccc;
+    border-color: #cc5500;
+}
+
 
 /*  ----------------------------------------------------
 14. FOOTER SECTION
