@@ -875,8 +875,12 @@ img.mfp-img {
     background-attachment: fixed;
 }
 
-.counterup-area .text-center h3, h4 {
-    color: white;
+.counterup-area .single-counter h4 {
+    color: #fff;
+}
+
+.counterup-area .section-title h3 {
+    color: #fff;
 }
 
 .counterup-area:before {
@@ -898,7 +902,7 @@ img.mfp-img {
     font-size: 40px;
     color: #fff;
 }
-.counterup-area .single-counter p {
+.counterup-area .single-counter p h3 h4 {
     margin: 10px 0 10px;
     font-weight: 300;
     color: #fff;
@@ -1109,7 +1113,7 @@ a.call-btn:hover {
 }
 
 /*  ----------------------------------------------------
-15. JUMBOTRON SECTION
+15. MAIJA SECTION
 -------------------------------------------------------- */
 .btn-primary {
     background-color: #cc5500;
@@ -1123,6 +1127,10 @@ a.call-btn:hover {
 .btn:hover {
     background-color: #00cccc;
     border-color: #cc5500;
+}
+
+.thumbnail a > img {
+    border: none;
 }
 
 
