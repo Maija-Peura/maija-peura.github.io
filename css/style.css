@@ -168,6 +168,22 @@ margin:0 auto;
 /*  ----------------------------------------------------
 3. HEADER SECTION
 -------------------------------------------------------- */
+
+/* Show it is fixed to the top */
+/*body {*/
+    /*min-height: 75rem;*/
+    /*!*padding-top: 4.5rem;*!*/
+/*}*/
+
+/*.bg-dark {*/
+    /*background-color: #00cccc!important;*/
+    /*width: 100%;*/
+    /*padding-top: 25px;*/
+/*}*/
+/*.navbar {*/
+    /*margin-bottom: 0;*/
+/*}*/
+
 #header {
     transition: all 0.4s;
     top: -75px;
@@ -235,12 +251,12 @@ nav ul li a:focus {
     list-style: none;
     text-decoration: none;
 }
-.logo {
-    float: left;
-    font-size: 20px;
-    font-weight: bold;
-    color: #FFF;
-}
+/*.logo {*/
+    /*float: left;*/
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
+    /*color: #FFF;*/
+/*}*/
 .responsive {
     display: none;
     font-size: 23px;
@@ -1171,4 +1187,13 @@ footer p {
 .social ul li a:hover {
     background: #123F63;
     color: #ffffff;
+}
+
+/*// small devices (tablets, 768px and down)*/
+@media (max-width: 768px) {
+
+    .nav-menu li {
+        float: left;
+    }
+
 }
