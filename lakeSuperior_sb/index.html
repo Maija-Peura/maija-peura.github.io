@@ -24,10 +24,14 @@
     <!-- logo -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light custom">
         <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" width="180" height="180" alt="logo">
+            <img src="images/logo.png" class="img-fluid" alt="logo">
         </a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -62,13 +66,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="images/vikre_hero.jpeg" alt="First slide">
+                <img class="d-block w-100" src="images/vikre_hero.jpeg" class="img-fluid" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/cd_hero.png" alt="Second slide">
+                <img class="d-block w-100" src="images/cd_hero.png" class="img-fluid" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/bp_taproom.jpg" alt="Third slide">
+                <img class="d-block w-100" src="images/bp_taproom.jpg" class="img-fluid" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -94,87 +98,69 @@
 
 <div id="tours" class="container">
     <div id="tourimg" class="row">
-        <div class="col-sm">
-            <!--<div class="text-center">-->
-            <a href="imagescd.html" target="_blank" class="thumbnail">
-                <img id="cd" src="images/logo_cd.png"  alt="logo" class="img-responsive">
+        <div class="col-sm-4">
+            <div class="text-center">
+            <a href="imagescd.html">
+                <img id="cd" src="images/logo_cd.png"  alt="logo" class="img-thumbnail">
             </a>
-            <!--</div>-->
-            <!--<h4>Castle Danger Tour</h4>-->
-        </div>
-
-
-        <div class="col-sm">
-            <a href="imagesbp.html" target="_blank" class="thumbnail">
-                <img id="bp" src="images/logo_bp.jpg"  alt="logo" class="img-responsive">
-            </a>
-            <!--<h4>Bent Paddle Tour</h4>-->
-        </div>
-
-        <div class="col-sm">
-            <a href="imagesvikre.html" target="_blank" class="thumbnail">
-                <img id="vikre" src="images/logo_vikre.png"  alt="logo" class="img-responsive">
-            </a>
-            <!--<h4>Vikre Tour</h4>-->
-        </div>
-    </div>
-
-    <div id="tourtxt" class="row">
-        <div class="col-sm">
-            <!--<a href="imagescd.html" target="_blank" class="thumbnail">-->
-                <!--<img src="images/logo_cd.png"  alt="logo" class="img-responsive">-->
-            <!--</a>-->
             <h4>Castle Danger Tour</h4>
+            </div>
         </div>
 
 
-        <div class="col-sm">
-            <!--<a href="imagescd.html" target="_blank" class="thumbnail">-->
-                <!--<img src="images/logo_bp2.jpg"  alt="logo" class="img-responsive">-->
-            <!--</a>-->
+        <div class="col-sm-4">
+            <div class="text-center">
+            <a href="imagesbp.html">
+                <img id="bp" src="images/logo_bp.jpg"  alt="logo" class="img-thumbnail">
+            </a>
             <h4>Bent Paddle Tour</h4>
+            </div>
         </div>
 
-        <div class="col-sm">
-            <!--<a href="imagescd.html" target="_blank" class="thumbnail">-->
-                <!--<img src="images/logo_vikre.png"  alt="logo" class="img-responsive">-->
-            <!--</a>-->
+        <div class="col-sm-4">
+            <div class="text-center">
+            <a href="imagesvikre.html">
+                <img id="vikre" src="images/logo_vikre.png"  alt="logo" class="img-thumbnail">
+            </a>
             <h4>Vikre Tour</h4>
+            </div>
         </div>
     </div>
+
 </div>
 
 <div class="container">
     <div class="bottomborder"></div>
     <footer class="navbar navbar-default navbar-static">
              <!--<div class="row">-->
-                <div class="col-8">
-                    <p>&copy; Copyright 2018. Maija Peura - student practice site. All Rights Reserved.</p>
-                </div>
-                <div class="col-4">
+
+                <div class="col-sm-4">
                     <ul id="social" class="list-inline">
                         <li class="list-inline-item">
                             <a href="https://www.facebook.com/">
-                            <img src="images/icon_fb.png" width="40" height="40" alt="facebook" class="img-responsive"></a>
+                            <img src="images/icon_fb.png" alt="facebook logo" class="img-responsive"></a>
                         </li>
 
                         <li class="list-inline-item">
                             <a href="https://www.pinterest.com/">
-                            <img src="images/icon_pinterest.png" width="40" height="40" alt="facebook" class="img-responsive"></a>
+                            <img src="images/icon_pinterest.png" alt="pinterest logo" class="img-responsive"></a>
                         </li>
 
                         <li class="list-inline-item">
                             <a href="https://www.youtube.com/">
-                            <img src="images/icon_youtube.png" width="40" height="40" alt="facebook" class="img-responsive"></a>
+                            <img src="images/icon_youtube.png" alt="youtube logo" class="img-responsive"></a>
                         </li>
 
                         <li class="list-inline-item">
                             <a href="https://twitter.com//">
-                            <img src="images/icon_twitter.png" width="40" height="40" alt="facebook" class="img-responsive"></a>
+                            <img src="images/icon_twitter.png" alt="twitter logo" class="img-responsive"></a>
                         </li>
                     </ul>
 
                 </div>
+        <div class="col-sm-8">
+            <p>&copy; Copyright 2018. Maija Peura - student practice site. All Rights Reserved.</p>
+        </div>
             <!--</div>-->
 
     </footer>
