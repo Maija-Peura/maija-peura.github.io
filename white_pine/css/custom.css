@@ -131,7 +131,7 @@ a.disabled {
 .circle1 {
     width: 150px;
     height: 150px;
-    background-color: #666699;
+    background-color: #c4c4d8;
     border-radius: 50%;
     display: inline-block;
     margin: 20px 20px 40px 40px;
@@ -154,7 +154,7 @@ a.disabled {
 .circle3 {
     width: 150px;
     height: 150px;
-    background-color: #336633;
+    background-color: #4c4e55;
     border-radius: 50%;
     display: inline-block;
     margin: 20px 20px 40px 40px;
@@ -165,7 +165,7 @@ a.disabled {
 .circle4 {
     width: 150px;
     height: 150px;
-    background-color: #669966;
+    background-color: #959aa9;
     border-radius: 50%;
     display: inline-block;
     margin: 20px 20px 40px 40px;
@@ -176,7 +176,7 @@ a.disabled {
 .circle5 {
     width: 150px;
     height: 150px;
-    background-color: #cccc33;
+    background-color: #bda080;
     border-radius: 50%;
     display: inline-block;
     margin: 20px 20px 40px 40px;
@@ -187,7 +187,31 @@ a.disabled {
 .circle6 {
     width: 150px;
     height: 150px;
-    background-color: #99cc33;
+    background-color: #ca3584;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 20px 40px 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.circle7 {
+    width: 150px;
+    height: 150px;
+    background-color: #f8f7d4;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 20px 40px 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.circle8 {
+    width: 150px;
+    height: 150px;
+    background-color: #fbfbe9;
     border-radius: 50%;
     display: inline-block;
     margin: 20px 20px 40px 40px;
