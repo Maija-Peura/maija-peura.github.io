@@ -27,63 +27,81 @@
     
     
 <body>
-
-<!--/start nav -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark py-0">
-    <div class="col-md-4">
-        <a class="navbar-brand mr-auto" href="index.html">
-            <img src="images/logo_final_MN.png" alt="logo">
-        </a>
-    </div>
+    
+<div class="container"><!--BEGIN NAV container-->
+    
+<nav class="navbar navbar-expand-md navbar-light flex-row">
+    <a class="navbar-brand mr-auto" href="index.html">
+        <img src="images/logo_final_MN.png" alt="logo">
+    </a>
+    
     <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent, #navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="col-md-8">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plan Your Visit
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item disabled" href="#">Park Information</a>
-                        <a class="dropdown-item disabled" href="#">Events Calendar</a>
-                        <a class="dropdown-item" href="camping.html">Camping</a>
-                        <a class="dropdown-item disabled" href="#">Maps</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item disabled" href="#">Safety Information</a>
-                    </div>
-                </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Explore The Park
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="flora_fauna.html">Flora & Fauna</a>
-                        <a class="dropdown-item disabled" href="#">Gallery</a>
-                        <a class="dropdown-item disabled" href="#">Newsletter/Blog</a>
+    <form class="form-inline ml-auto">
+        <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-dark btn-sm my-2 my-sm-0" type="submit">Search</button>
+    </form>
 
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="contact.html">Contact Us</a>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Get Involved
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item disabled" href="#">Membership</a>
-                        <a class="dropdown-item disabled" href="#">Donate</a>
-                        <a class="dropdown-item disabled" href="#">Volunteer</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="construction.html">Merchandise</a>
-                </li>
-            </ul>
-        </div>
+<div class="alert">    
+<ul class="nav navbar-nav navbar-right">
+    <li><a href="construction.html">
+        <img border="0" alt="Alerts" src="images/alert2.png"></a><br>
+        <p><small>Alerts</small></p>
+    </li>
+</ul>
+</div>
+    
+</nav><!--/end logo nav -->
+</div><!--END NAV container-->
+<!--/start second nav -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark py-0">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+    
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plan Your Visit
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item disabled" href="#">Park Information</a>
+                <a class="dropdown-item disabled" href="#">Events Calendar</a>
+                <a class="dropdown-item" href="camping.html">Camping</a>
+                <a class="dropdown-item disabled" href="#">Maps</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item disabled" href="#">Safety Information</a>
+            </div>
+          </li>
+            
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Explore The Park
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="flora_fauna.html">Flora & Fauna</a>
+                <a class="dropdown-item disabled" href="#">Gallery</a>
+                <a class="dropdown-item disabled" href="#">Newsletter/Blog</a>
+                
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="contact.html">Contact Us</a>
+            </div>
+          </li>
+            
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Get Involved
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item disabled" href="#">Membership</a>
+              <a class="dropdown-item disabled" href="#">Donate</a>
+              <a class="dropdown-item disabled" href="#">Volunteer</a>
+            </div>
+          </li>
+            <li class="nav-item">
+        <a class="nav-link" href="construction.html">Merchandise</a>
+      </li>
+        </ul>
     </div>
 </nav>
 <!--/end second nav -->
@@ -115,7 +133,7 @@
                 <a href="index.html">
                     <img src="images/member.jpg" alt="Lights" style="width:100%">
                 </a>
-                    <div class="caption text-center subheading">
+                    <div class="caption text-center">
                         <h4>Membership</h4>
                     </div>
                         <div>
@@ -129,7 +147,7 @@
                 <a href="index.html">
                     <img src="images/purple.jpg" alt="Nature" style="width:100%">
                 </a>
-                    <div class="caption text-center subheading">
+                    <div class="caption text-center">
                         <h4>Flora & Fauna</h4>
                     </div>
                         <div>
@@ -143,7 +161,7 @@
                 <a href="camping.html">
                     <img src="images/camping.jpg" alt="Fjords" style="width:100%">
                 </a>
-                    <div class="caption text-center subheading">
+                    <div class="caption text-center">
                         <h4>Camping</h4>
                     </div>
                         <div>
@@ -156,54 +174,34 @@
 </div>
 
 <div class= "container">
-    <h1>Upcoming Events</h1>
-    <div class="row row-flex">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="content colour-1">
-                <h3>Free Park Day</h3>
-                <p>From Friday, January 18 through Monday, January 21, Minnesota state parks to offer
-                    free admission in honor of Dr. Martin Luther King. <a href="index.html">click here</a>
-                    for more details #WhitePine</p>
-            </div>
+    <h2>Upcoming Events</h2>
+    <div class= "row callout">
+        <div class= "col-sm-6">
+            <h4>Free Park Day</h4>
+                <p>From Friday, January 18 through Monday, January 21, Minnesota state parks to offer free admission in honor of Dr. Martin Luther King. <a href="index.html">click here</a> for more details #WhitePine</p> 
+                    <hr/>
+            
+            <h4>Winter Carnival</h4>
+                <p>Starting on Friday, January 25 and continuing throughout the month of February, come and experience all of the beauties of winter in the north. <a href="index.html">click here</a> for event listings and locations.</p> 
+                    <hr/>
+                    
+            <h4>White Pine Hiking Club</h4>
+                <p>Chart your own course, set your own pace or move with the group - whatever the case, White Pine Hiking Club offers opportunities for all ages to come and experience the life-giving health benefits of outdoor hiking. <a href="index.html">click here</a> for more upcoming dates, trail suggestions and more... </p> 
+                    <hr/>
+            <h4>Sledding Saturdays</h4>
+                <p>Slide away those winter blues.  Did you know moonboots are making a come back?  Come and experience the joy of snow and the breeze on your cheeks - it CAN happen! <a href="index.html">click here</a> for a list of organized sledding events.   </p> 
+                    <hr/>
+            
+            <h4>Winter Wonders</h4>
+                <p>Come and experience all things winter at White Pine's Winter Wonders event. Located in the park pavilion, families can bundle up and come out to participate in outdoor activities and make nummy s'mores by the bonfire. The event is free and open to the public. For more information visit our <a href="index.html">events page.</a></p> 
+                    <hr/>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="content colour-2">
-                <h3>Winter Carnival</h3>
-                <p>Starting on Friday, January 25 and continuing throughout the month of February,
-                    come and experience all of the beauties of winter in the north. <a href="index.html">click here</a>
-                    for event listings and locations.</p>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="content colour-3">
-                <h3>White Pine Hiking Club</h3>
-                <p>Chart your own course, set your own pace or move with the group - whatever the case,
-                    White Pine Hiking Club offers opportunities for all ages to come and experience the
-                    life-giving health benefits of outdoor hiking. <a href="index.html">click here</a> for
-                    more upcoming dates, trail suggestions and more.</p>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="content colour-4">
-                <h3>Winter Wonders</h3>
-                <p>Come and experience all things winter at White Pine's Winter Wonders event. Located in the park
-                    pavilion, families can bundle up and come out to participate in outdoor activities and make
-                    nummy s'mores by the bonfire. The event is free and open to the public. For more information
-                    visit our <a href="index.html">events page.</a></p>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="content colour-5">
-                <h3>Calendar of events</h3>
-                <p>Find out about upcoming events and park specials. <br>
-                    <img class="img-fluid" src="images/calendar.jpg" alt="calendar"></p>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="content colour-6">
-                <h3>Sixth column</h3>
-                <p><img class="img-fluid" src="images/winter_trail.jpg" alt="winter trail"></p>
-            </div>
+    
+        <div class= "col-sm-6 text-center">
+            <h4>Interactive Calendar of events</h4>
+                <img class="img-fluid" src="images/calendar.jpg" alt="calendar">
+                <hr/>            
+             <img class="img-fluid" src="images/winter_trail.jpg" alt="winter trail">
         </div>
     </div>
 </div>
@@ -303,23 +301,9 @@
             
             <div class="col-sm-4 copyright">
                 <p>&copy; 2018 Maija Peura. All Rights Reserved. MCTC WEBI 2023</p>    
-            </div>
-            <form class="form-inline ml-auto">
-                <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-dark btn-sm my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            <div class="alert">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="construction.html">
-                        <img border="0" alt="Alerts" src="images/alert2.png"></a><br>
-                        <p><small>Alerts</small></p>
-                    </li>
-                </ul>
-            </div>
+            </div>   
         </div>
     </div>
-
-
 </footer><!--FOOTER END-->
 
 <!--  </div>-->
