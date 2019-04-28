@@ -184,13 +184,18 @@ margin:0 auto;
     /*margin-bottom: 0;*/
 /*}*/
 
+
 #header {
     transition: all 0.4s;
     top: -75px;
 }
+
+
 #header.sticky {
-    top: 0;
+    top: 0px;
 }
+
+
 nav {
     position: fixed;
     background: transparent;
@@ -200,6 +205,8 @@ nav {
     width: 100%;
     padding: 20px 30px;
 }
+
+
 .sticky {
     background: #123F63;
     box-shadow: 0px 0px 1px 0px #ccc;
@@ -208,7 +215,11 @@ nav {
     position: fixed;
     top: 0px;
     display: block;
+    /*height: 140px;*/
+    margin-top: -20px;
 }
+
+
 .nav-menu {
     float: right;
     line-height: 32px;
@@ -216,6 +227,7 @@ nav {
     padding: 0;
     margin: 0;
 }
+
 nav ul li {
     float: left;
     margin-left: 20px;
@@ -265,7 +277,10 @@ nav ul li a:focus {
 /*  ----------------------------------------------------
 4. RESPONSIVE CSS
 -------------------------------------------------------- */
+
+
 @media screen and (max-width: 767px) {
+
     nav {
         padding: 20px 15px;
         background-color: #123F63;
@@ -291,6 +306,7 @@ nav ul li a:focus {
         float: right;
         display: block;
         color: #FFF;
+        margin-top: 50px;
     }
     .home .home-content h1 {
         font-size: 40px;
@@ -325,6 +341,17 @@ nav ul li a:focus {
         font-size: 13px !important;
         margin-left: 12px !important;
     }
+
+    .logo{
+        margin-top: -10px;
+
+    }
+
+
+
+
+
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .services {
@@ -341,15 +368,22 @@ nav ul li a:focus {
     }
 }
 
+
 /*  ----------------------------------------------------
 5. HERO SECTION
 -------------------------------------------------------- */
 .home {
-    background: url(../images/maijaComputer2.jpg) no-repeat scroll center center / cover;
+    background: url(../images/maijaComputer2.jpg) no-repeat scroll center;
     width: 100%;
     display: table;
     background-color: #123f63;
+    background-size: cover;
 }
+
+
+
+
+
 .home-content {
     display: table-cell;
     vertical-align: middle;
@@ -434,6 +468,7 @@ a.home-button:hover {
 #aboutus {
     padding: 50px 0px;
     padding-bottom: 20px;
+    margin-top: 20px;
 }
 #aboutus img {
     width: 100%;
@@ -884,7 +919,8 @@ img.mfp-img {
 .counterup-area {
     z-index: 1;
     position: relative;
-    background: url("../images/background_border.png") no-repeat scroll center center / cover;
+    /*background: url("../images/background_border.png") no-repeat scroll center center / cover;*/
+    background: url("../images/test-background2.jpg") no-repeat scroll center center / cover;
     /*background-color: #123F63;*/
     color: #fff;
     padding: 100px 0px;
@@ -894,6 +930,8 @@ img.mfp-img {
 .counterup-area .single-counter h4 {
     color: #fff;
 }
+
+.single-counter p{color: lightgray;}
 
 .counterup-area .section-title h3 {
     color: #fff;
@@ -1148,6 +1186,25 @@ a.call-btn:hover {
 .thumbnail a > img {
     border: none;
 }
+
+
+/*logo setup*/
+.p-logo{margin-top: 50px;}
+
+.logo{max-height: 100vh;}
+/*.p-nav-margins{*/
+    /*background-color: red;*/
+    /*height: 60px;*/
+
+/*}*/
+
+
+
+/*.p-nav-margins{background-color: yellow;}*/
+
+
+.nav-menu{margin-top: -50px;}
+
 
 
 /*  ----------------------------------------------------

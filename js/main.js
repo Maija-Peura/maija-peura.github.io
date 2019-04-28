@@ -47,7 +47,7 @@ $(document).ready(function() {
     $('a.smoothScroll').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 40)
+            scrollTop: ($($anchor.attr('href')).offset().top - 120)
         }, 1200, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -55,6 +55,7 @@ $(document).ready(function() {
 	/******************** 2.2 Responsive Mobile Menu ********************/
     $('.responsive').on('click', function(e) {
         $('.nav-menu').slideToggle();
+
     });
 	
     jQuery(window).resize(function() {
