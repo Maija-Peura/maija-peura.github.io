@@ -1187,20 +1187,33 @@ a.call-btn:hover {
     border: none;
 }
 
+/*Logo Application section*/
+.thumb {
+    /*display: block;*/
+    /*width: 75%;*/
+    /*margin: 0;*/
+}
+
+.featured-article {
+    /*float:right;*/
+    margin-bottom: 1em;
+}
+
+.main-list {
+    padding-left: .5em;
+}
+
+.main-list .media {
+    padding-bottom: 1.1em;
+}
+/*logo application section end*/
+
 
 /*logo setup*/
 .p-logo{margin-top: 50px;}
 
 .logo{max-height: 100vh;}
-/*.p-nav-margins{*/
-    /*background-color: red;*/
-    /*height: 60px;*/
 
-/*}*/
-
-
-
-/*.p-nav-margins{background-color: yellow;}*/
 
 
 .nav-menu{margin-top: -50px;}
