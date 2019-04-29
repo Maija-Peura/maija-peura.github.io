@@ -282,7 +282,7 @@ nav ul li a:focus {
 @media screen and (max-width: 767px) {
 
     nav {
-        padding: 20px 15px;
+        padding: 5px 15px;
         background-color: #123F63;
     }
     .nav-menu {
@@ -310,7 +310,9 @@ nav ul li a:focus {
     }
     .home .home-content h1 {
         font-size: 40px;
+        margin-top: 30px;
     }
+
     .home .home-content p {
         padding: 0;
     }
@@ -1264,6 +1266,14 @@ footer p {
 
     .nav-menu li {
         float: left;
+    }
+
+    .nav-menu{
+        margin-top: -0px;
+    }
+
+    .p-logo {
+        display: none;
     }
 
 }

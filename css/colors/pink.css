@@ -50,6 +50,10 @@ a.home-button:hover, .single-service:hover i, .single-service:hover h3, .single-
 
 @media screen and (max-width: 767px) {
 	nav {
-		background: #cc5500;
+		background: #00cccc;
+	}
+
+	#header {
+		top: -30px;
 	}
 }
