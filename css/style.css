@@ -1281,7 +1281,7 @@ footer p {
         display: none;
     }
 
-    nav ul li {
-        margin-top: -20px;
-    }
+    /*nav ul li {*/
+        /*margin-top: -20px;*/
+    /*}*/
 }
