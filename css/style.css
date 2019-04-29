@@ -924,12 +924,13 @@ img.mfp-img {
 .counterup-area {
     z-index: 1;
     position: relative;
-    /*background: url("../images/background_border.png") no-repeat scroll center center / cover;*/
+    /*background: url("../images/background_border850.jpg") no-repeat scroll center center / cover;*/
     background: url("../images/test-background2.jpg") no-repeat scroll center center / cover;
     /*background-color: #123F63;*/
     color: #fff;
     padding: 100px 0px;
     background-attachment: fixed;
+    /*background-size: auto;*/
 }
 
 .counterup-area .single-counter h4 {
@@ -1215,8 +1216,8 @@ a.call-btn:hover {
 
 
 /*logo setup*/
-/*.p-logo{margin-top: 50px;}*/
-.p-logo{margin-top: 30px;}
+.p-logo{margin-top: 50px;}
+/*.p-logo{margin-top: 30px;}*/
 
 .logo{max-height: 100vh;}
 
