@@ -190,9 +190,11 @@ margin:0 auto;
     top: -75px;
 }
 
-
+/*maija changed*/
 #header.sticky {
-    top: 0px;
+    /*top: 0px;*/
+    top: -20px;
+
 }
 
 
@@ -234,6 +236,7 @@ nav ul li {
     font-size: 18px;
     font-weight: bold;
     position: relative;
+    margin-top: -30px;
 }
 nav ul li.active:before {
     content: "";
@@ -1212,7 +1215,8 @@ a.call-btn:hover {
 
 
 /*logo setup*/
-.p-logo{margin-top: 50px;}
+/*.p-logo{margin-top: 50px;}*/
+.p-logo{margin-top: 30px;}
 
 .logo{max-height: 100vh;}
 
@@ -1276,4 +1280,7 @@ footer p {
         display: none;
     }
 
+    nav ul li {
+        margin-top: -20px;
+    }
 }
