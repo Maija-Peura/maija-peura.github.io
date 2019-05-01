@@ -5,10 +5,8 @@ body{
 	padding-bottom: 120px;
 	background-color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-
-
-	/*color: #f1f0f5;*/
 }
+
 h3 {
 font-size: 26px;
 }
@@ -16,11 +14,6 @@ font-size: 26px;
 p{
 font-size: 18px;
 }
-
-/*.container{
-	background-color: #222;
-
-}*/
 
 /*@media (min-width: 768px)*/
 .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
