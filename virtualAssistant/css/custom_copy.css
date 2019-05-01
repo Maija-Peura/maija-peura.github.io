@@ -1,29 +1,30 @@
+@charset "UTF-8";
+
 /*custom style style*/
 body{
 	/*padding-bottom: 120px;*/
 	background-color: #ffffff;
 }
 
-h1 {font-family: Roboto Slab;
+h1 {
+	font-family: 'Roboto Slab', serif;
 	font-size: 64px;
-	text-align: justify;
 	color: #000000;
 	}
 
 h2 {
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab', serif;
 	font-size: 44px;
-	text-align: justify;
 	color: #000000;
 	}
 h3 {
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab', serif;
 	font-size: 36px;
 	color: #000000;
 }
 
 h4 {
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab', serif;
 	font-size: 26px;
 	color: #000000;
 }
@@ -48,15 +49,15 @@ p{
 	padding-left: 1rem;
 }
 
-.hero{
-/*position: absolute;*/
-	width: 1439px;
-	height: 773px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background: url(../images/bannerimg1440x780.jpg);
-	margin-bottom: 20px;
-}
+/*.hero{*/
+/*!*position: absolute;*!*/
+	/*width: 1439px;*/
+	/*height: 773px;*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	/*background: url(../images/bannerimg1440x780.jpg);*/
+	/*margin-bottom: 20px;*/
+/*}*/
 
 /*BODY*/
 .description {
@@ -68,8 +69,22 @@ p{
 	border-color: #8b0409;
 }
 
+.btn-primary:hover {
+	color: #fff;
+	background-color: #C8D8E2;
+	border-color: #C8D8E2;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
 .navbar {
 	display: contents;
+}
+
+.nav-link {
+	font-size: 1.3rem;
 }
 
 .quote {
@@ -77,7 +92,7 @@ p{
 }
 
 .quote p {
-	font-family: Shadows Into Light;
+	font-family: 'Shadows Into Light', cursive;
 	font-size: 72px;
 	text-align: center;
 	color: #000000;
@@ -150,35 +165,35 @@ footer a:hover, a:focus{
 /*// small devices (tablets, 768px and down)*/
 @media (max-width: 768px) {
 
-	h1 {font-family: Roboto Slab;
-		font-size: 2rem;
-		text-align: justify;
-		color: #000000;
-	}
+	/*h1 {font-family: Roboto Slab;*/
+		/*font-size: 2rem;*/
+		/*text-align: justify;*/
+		/*color: #000000;*/
+	/*}*/
 
-	h2 {
-		font-family: Roboto Slab;
-		font-size: 1.5rem;
-		text-align: justify;
-		color: #000000;
-	}
-	h3 {
-		font-family: Roboto Slab;
-		font-size: 1rem;
-		color: #000000;
-	}
+	/*h2 {*/
+		/*font-family: Roboto Slab;*/
+		/*font-size: 1.5rem;*/
+		/*text-align: justify;*/
+		/*color: #000000;*/
+	/*}*/
+	/*h3 {*/
+		/*font-family: Roboto Slab;*/
+		/*font-size: 1rem;*/
+		/*color: #000000;*/
+	/*}*/
 
-	h4 {
-		font-family: Roboto Slab;
-		font-size: .75rem;
-		color: #000000;
-	}
+	/*h4 {*/
+		/*font-family: Roboto Slab;*/
+		/*font-size: .75rem;*/
+		/*color: #000000;*/
+	/*}*/
 
-	p{
-		font-family: 'Roboto', sans-serif;
-		font-size: .5rem;
-		color: #000000;
-	}
+	/*p{*/
+		/*font-family: 'Roboto', sans-serif;*/
+		/*font-size: .5rem;*/
+		/*color: #000000;*/
+	/*}*/
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: .5rem;
 		padding-left: .5rem;
@@ -195,11 +210,11 @@ footer a:hover, a:focus{
 		margin-top: auto;
 	}
 
-	.hero{
-		background-repeat: no-repeat!important;
-		background: url(../images/bannerimg350px.jpg);
-		height: 190px;
-		}
+	/*.hero{*/
+		/*background-repeat: no-repeat!important;*/
+		/*background: url(../images/bannerimg350px.jpg);*/
+		/*height: 190px;*/
+		/*}*/
 
 	.quote p {
 		font-size: 2rem;
