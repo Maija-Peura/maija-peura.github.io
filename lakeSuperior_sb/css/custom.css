@@ -88,6 +88,11 @@ body > a > img {
     margin-bottom: 2em;
 }
 
+.navbar-light .navbar-nav .nav-link.disabled {
+    font-size: 1.2em;
+    padding: 30px;
+}
+
 .imagestxt {
     padding-top: 1.5em;
 }
@@ -128,6 +133,12 @@ footer p {
 
 /*// small devices (tablets, 768px and down)*/
 @media (max-width: 768px) {
+
+    .navbar-light .navbar-nav .nav-link.disabled {
+        font-size: 1em;
+        padding: 0px;
+        text-align: right;
+    }
 
     .text-center {
         margin-bottom: 20px;
