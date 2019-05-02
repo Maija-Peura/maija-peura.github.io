@@ -378,7 +378,7 @@ nav ul li a:focus {
 5. HERO SECTION
 -------------------------------------------------------- */
 .home {
-    background: url(../images/maijaComputer2.jpg) no-repeat scroll center;
+    background: url(../images/maijaComputer3.jpg) no-repeat scroll center;
     width: 100%;
     display: table;
     background-color: #123f63;
@@ -920,8 +920,8 @@ img.mfp-img {
 .counterup-area {
     z-index: 1;
     position: relative;
-    /*background: url("../images/background_border850.jpg") no-repeat scroll center center / cover;*/
-    background: url("../images/test-background2.jpg") no-repeat scroll center center / cover;
+    background: url("../images/background_border850.jpg") no-repeat scroll center center / cover;
+    /*background: url("../images/test-background2.jpg") no-repeat scroll center center / cover;*/
     /*background-color: #123F63;*/
     color: #fff;
     padding: 100px 0px;
