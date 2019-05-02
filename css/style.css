@@ -1172,8 +1172,8 @@ a.call-btn:hover {
 15. MAIJA SECTION
 -------------------------------------------------------- */
 .btn-primary {
-    background-color: #cc5500;
-    border-color: #00cccc;
+    background-color: #00cccc;
+    border-color: #cc5500;
 }
 
 .btn-primary a {
@@ -1181,8 +1181,44 @@ a.call-btn:hover {
 }
 
 .btn:hover {
-    background-color: #00cccc;
-    border-color: #cc5500;
+    background-color: #cc5500;
+    border-color: #00cccc;
+}
+
+.fa-arrow-circle-left:before {
+    color: #00cccc;
+}
+
+/*ul {*/
+    /*list-style: none;*/
+/*}*/
+
+/*ul li:before {*/
+    /*font-family: 'FontAwesome';*/
+    /*content: '\f4d8';*/
+    /*!*margin:0 5px 0 -15px;*!*/
+    /*color: #cc5500;*/
+/*}*/
+
+.fa-li {
+    left: -2em;
+     position: initial;
+    text-align: center;
+    width: auto;
+    line-height: inherit;
+}
+
+.fas {
+    display: inline-flex;
+}
+
+.fas h6 {
+    line-height: 1.5;
+    padding-left: 20px;
+}
+
+.fa-ul {
+    margin-left: 1em;
 }
 
 .thumbnail a > img {
