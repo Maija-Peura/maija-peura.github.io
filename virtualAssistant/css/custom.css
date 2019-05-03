@@ -78,6 +78,10 @@ padding-top: 40px;
 .bizsvc a {
 	color: #8b0409;
 }
+.bizsvc {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
 
 .btn-primary {
 	color: #fff;
@@ -126,10 +130,12 @@ padding-top: 40px;
 
 .event {
 	background-color: #C8D8E2;
+	margin-bottom: 50px;
 }
 
 .itemized {
 	background-color: #D5BEBE;
+	margin-bottom: 50px;
 }
 
 .jumbotron {
@@ -162,6 +168,7 @@ padding-top: 40px;
 
 .pa {
 	background-color: #D9D4CC;
+	margin-bottom: 50px;
 }
 
 .quote {
