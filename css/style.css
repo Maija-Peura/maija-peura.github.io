@@ -924,7 +924,11 @@ img.mfp-img {
 .counterup-area {
     z-index: 1;
     position: relative;
-    background: url("../images/background_border850.jpg") no-repeat scroll center center / cover;
+    /*background: url("../images/background_border850.jpg") no-repeat scroll center center / cover;*/
+    background-image: url("../images/background_border850.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     /*background: url("../images/test-background2.jpg") no-repeat scroll center center / cover;*/
     /*background-color: #123F63;*/
     color: #fff;
