@@ -8,30 +8,35 @@ body{
 
 h1 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 64px;
+	/*font-size: 64px;*/
+	font-size: 3.5rem;
 	color: #000000;
 	}
 
 h2 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 44px;
+	/*font-size: 44px;*/
+	font-size: 2.5rem;
 	color: #000000;
 	}
 h3 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 36px;
+	/*font-size: 36px;*/
+	font-size; 2rem;
 	color: #000000;
 }
 
 h4 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 26px;
+	/*font-size: 26px;*/
+	font-size: 1.75rem;
 	color: #000000;
 }
 
 p{
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	/*font-size: 20px;*/
+	font-size: 1.25rem;
 	color: #000000;
 }
 
@@ -242,35 +247,40 @@ footer a:hover, a:focus{
 /*// small devices (tablets, 768px and down)*/
 @media (max-width: 768px) {
 
-	/*h1 {font-family: Roboto Slab;*/
-		/*font-size: 2rem;*/
-		/*text-align: justify;*/
-		/*color: #000000;*/
-	/*}*/
+	h1 {
+		font-family: 'Roboto Slab', serif;
+		/*font-size: 64px;*/
+		font-size: 1.5rem;
+		color: #000000;
+	}
 
-	/*h2 {*/
-		/*font-family: Roboto Slab;*/
-		/*font-size: 1.5rem;*/
-		/*text-align: justify;*/
-		/*color: #000000;*/
-	/*}*/
-	/*h3 {*/
-		/*font-family: Roboto Slab;*/
-		/*font-size: 1rem;*/
-		/*color: #000000;*/
-	/*}*/
+	h2 {
+		font-family: 'Roboto Slab', serif;
+		/*font-size: 44px;*/
+		font-size: 1.25rem;
+		color: #000000;
+	}
+	h3 {
+		font-family: 'Roboto Slab', serif;
+		/*font-size: 36px;*/
+		font-size; 1rem;
+		color: #000000;
+	}
 
-	/*h4 {*/
-		/*font-family: Roboto Slab;*/
-		/*font-size: .75rem;*/
-		/*color: #000000;*/
-	/*}*/
+	h4 {
+		font-family: 'Roboto Slab', serif;
+		/*font-size: 26px;*/
+		font-size: .75rem;
+		color: #000000;
+	}
 
-	/*p{*/
-		/*font-family: 'Roboto', sans-serif;*/
-		/*font-size: .5rem;*/
-		/*color: #000000;*/
-	/*}*/
+	p{
+		font-family: 'Roboto', sans-serif;
+		/*font-size: 20px;*/
+		font-size: .8rem;
+		color: #000000;
+	}
+
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: .5rem;
 		padding-left: .5rem;
