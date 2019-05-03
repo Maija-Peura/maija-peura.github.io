@@ -475,7 +475,7 @@ a.home-button:hover {
     width: 100%;
 }
 .about-text {
-    padding: 20px 0;
+    /*padding: 5px 0;*/
     margin-bottom: 20px;
 }
 .about-text h3 {
@@ -1311,6 +1311,14 @@ footer p {
 
     .p-logo {
         display: none;
+    }
+
+    .social ul {
+        text-align: center;
+    }
+
+    .social {
+        padding-top: 10px;
     }
 
     /*nav ul li {*/
