@@ -1196,6 +1196,20 @@ a.call-btn:hover {
     border-color: #00cccc;
 }
 
+.copy a:hover {
+    outline: 0 none;
+    text-decoration: none;
+    color: #FFF;
+    /*padding: 5px 0px;*/
+    border-bottom: 1px solid #FFF;
+}
+
+.copy a {
+    color: #cc5500;
+}
+
+
+
 .fa-arrow-circle-left:before {
     color: #00cccc;
 }
@@ -1230,6 +1244,11 @@ a.call-btn:hover {
 
 .fa-ul {
     margin-left: 1em;
+}
+
+.next_project {
+    float: right;
+    color: #00cccc;
 }
 
 .thumbnail a > img {
