@@ -99,6 +99,7 @@ padding-top: 40px;
 	background-color: #C8D8E2;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .dominique .img-thumbnail {
@@ -110,6 +111,7 @@ padding-top: 40px;
 	background-color: #D5BEBE;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .donna .img-thumbnail {
@@ -137,6 +139,7 @@ padding-top: 40px;
 	background-color: #D9D4CC;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .maija .img-thumbnail {
@@ -294,7 +297,7 @@ footer a:hover, a:focus{
 		/*}*/
 
 	.quote p {
-		font-size: 2rem;
+		font-size: 30px;
 	}
 
 
