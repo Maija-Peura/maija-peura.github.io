@@ -408,6 +408,10 @@ nav ul li a:focus {
     font-size: 20px;
     color: #fff;
 }
+
+.home-content .col-lg-8 {
+    padding-top: 80px;
+}
 a.home-button {
     margin-top: 20px;
     border: 1px solid #00cccc;
@@ -467,9 +471,9 @@ a.home-button:hover {
 7. ABOUT US SECTION
 -------------------------------------------------------- */
 #aboutus {
-    padding: 50px 0px;
-    padding-bottom: 20px;
+    /*padding: 50px 0px;*/
     margin-top: 20px;
+    padding: 100px 0px;
 }
 #aboutus img {
     width: 100%;
