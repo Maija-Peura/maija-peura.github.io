@@ -925,7 +925,7 @@ img.mfp-img {
     z-index: 1;
     position: relative;
     /*background: url("../images/background_border850.jpg") no-repeat scroll center center / cover;*/
-    background-image: url("../images/background_border850.jpg");
+    background-image: url("../images/background_border.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
