@@ -41,9 +41,17 @@ a.home-button, a.home-button:hover, a.about-btn, a.about-btn:hover{
 #our-team .content ul li a{
 	border-color:#cc5500;
 }
-a.home-button:hover, .single-service:hover i, .single-service:hover h3, .single-service:hover p, a.about-btn:hover, .portfolio_filter ul li.mixitup-control-active, #our-team .content ul li a:hover, .card .blog-info, a.call-btn:hover, .contact-details ul li i, .social ul li a, #our-team .content ul li a:hover{
+a.home-button:hover, .single-service:hover i, .single-service:hover h3, .single-service:hover p, a.about-btn:hover, #our-team .content ul li a:hover, .card .blog-info, a.call-btn:hover, .contact-details ul li i, .social ul li a, #our-team .content ul li a:hover{
 	color:#cc5500;
 }
+
+.portfolio_filter ul li.mixitup-control-active {
+	color:#FFFFFF;
+	font-size: 125%;
+}
+
+
+
 .counterup-area:before{
 	background-image: linear-gradient(to left, #555555, #555555);opacity: .6;
 }
