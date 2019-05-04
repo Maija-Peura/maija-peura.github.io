@@ -1276,6 +1276,10 @@ a.call-btn:hover {
 }
 /*logo application section end*/
 
+.overview li {
+    margin-bottom: 2px;
+    color: #777;
+}
 
 /*logo setup*/
 .p-logo{margin-top: 50px;}
